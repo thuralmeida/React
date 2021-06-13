@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import { render } from 'react-dom';
-
 function CapsLock(props) {
+  //Exemplo usando Children
   const textoInseridoCh = props.children;
   const textoCapsLockCh = textoInseridoCh.toUpperCase();
 
+  //Exemplo dentro da tag
   const textoInserido = props.texto;
   const textoCapsLock = textoInserido.toUpperCase();
 
@@ -13,7 +11,9 @@ function CapsLock(props) {
 }
 
 function App() {
-    return <CapsLock texto="Teste Normal">Apenas mais um TESTEzinho Children</CapsLock>
+    return (
+      <CapsLock texto="Teste Normal">Apenas mais um TESTEzinho Children</CapsLock>
+    )
 }
 
 export default App;
