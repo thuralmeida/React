@@ -1,4 +1,4 @@
-# Projetos Java Desktop
+# Projetos React
  Projetos variados e exemplos feitos em React
  
 **1. JogoDaVelha**
