@@ -1,7 +1,7 @@
 # Projetos React
  Projetos variados e exemplos feitos em React
  
-**1. JogoDaVelha**
+**1. jogodavelha**
      - Exercício do tutorial inicial para React.
  
 **2. capslock**
