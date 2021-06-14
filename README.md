@@ -9,3 +9,6 @@
 
 **3. contador**
      - Exercício para fazer um contador utilizando State.
+
+**4. fundamentos**
+     - Exercícios utilizando Children, Parâmetros, Condicional e Repetição.
