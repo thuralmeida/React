@@ -10,6 +10,7 @@ import Condicional from './componentes/condicional.jsx';
 import CondicionalIf from './componentes/condicionalIf.jsx';
 import Pai from './componentes/pai.jsx';
 import Super from './componentes/super.jsx';
+import Input from './componentes/input.jsx';
 
 export default props => (
     <div className="App">
@@ -55,6 +56,10 @@ export default props => (
 
         <Card titulo="Exercício Comunicação Indireta" color="#E94C6F">
             <Super />
+        </Card>
+
+        <Card titulo="Exercício Input" color="#008BBA">
+            <Input />
         </Card>
 
     </div>

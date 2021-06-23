@@ -3,15 +3,17 @@ import Sub from './sub.jsx';
 
 export default (props) => {
 
+    const [num, setNum] = useState(0)
+    const [texto, setTexto] = useState('Valor')
+
     function quandoClicar(valorGerado, texto) {
-        console.log('Ação!!!!')
-        console.log(valorGerado)
-        console.log(texto)
+        setNum(valorGerado)
+        setTexto(texto)
     }
 
     return (
         <div>
-            <h4>Valor</h4>
+            <h4>{texto}: {num}</h4>
             <Sub onClicar={quandoClicar}></Sub>
         </div>
     );
