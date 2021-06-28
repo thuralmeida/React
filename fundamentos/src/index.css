@@ -5,6 +5,10 @@ body {
     background-color: #444;
     color: white;
     text-align: center;
+
+    background: #2C3E50;
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+    background: linear-gradient(to right, #4CA1AF, #2C3E50);
 }
 
 h1, h2 {
@@ -12,6 +16,11 @@ h1, h2 {
 }
 
 .App {
+    display: flex;
+    flex-direction: column;
+}    
+
+.Cards {
     display: flex;
     flex-wrap: wrap;
 }
